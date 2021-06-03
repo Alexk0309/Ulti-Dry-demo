@@ -1,0 +1,468 @@
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  width: auto;
+}
+
+.head-container {
+  width: auto;
+  height: 70px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header {
+  margin: 0px 50px;
+  width: auto;
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  height: 70px;
+  position: relative;
+}
+
+.main-logo {
+  height: 70px;
+  width: 150px;
+}
+
+nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-button {
+  margin-left: 50px;
+}
+
+.nav-button:hover {
+  color: #bbbbbb;
+  border-bottom: 2px solid black;
+}
+
+.login-button:hover {
+  color: #bbbbbb;
+  border-bottom: 2px solid black;
+}
+
+.search {
+  position: absolute;
+  padding-right: 10px;
+  height: 30px;
+  width: 210px;
+  bottom: 27px;
+  right: 270px;
+}
+
+input[type=text] {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+#search-icon {
+  position: relative;
+  top: 8px;
+}
+
+.login {
+  height: 20px;
+  width: 116px;
+  position: absolute;
+  bottom: 27px;
+  right: 150px;
+}
+
+.cart-link {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 80px;
+  bottom: 25px;
+  background-image: url("Design/cart-light.png");
+  background-size: 32px 32px;
+}
+
+.cart-link:hover {
+  background-image: url("Design/cart-dark.png");
+  background-size: 32px 32px;
+}
+
+hr {
+  margin: 0px;
+  border-bottom: 2px solid grey;
+  width: auto;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+}
+
+.preview-2-container {
+  margin: 0px 50px;
+}
+
+.preview-2 {
+  position: relative;
+  width: auto;
+  height: 800px;
+  background-color: white;
+  text-align: center;
+}
+
+.preview-3 {
+  position: relative;
+  width: auto;
+  height: 1500px;
+  background-color: white;
+  text-align: center;
+}
+
+.preview-header {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preview-header2 {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+  font-size: 200px;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 1518px;
+}
+
+.price {
+  line-height: 0.5;
+  font-size: 20px;
+}
+
+.clothes-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .clothes-link {
+    flex-direction: row;
+  }
+  .information {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .link {
+    height: auto;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .clothes-link {
+    flex-direction: row;
+  }
+  .information {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .link {
+    height: auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1299px) {
+  .clothes-link {
+    flex-direction: row;
+  }
+  .information {
+    flex-direction: row;
+    margin-top: 800px;
+    justify-content: center;
+  }
+  .link {
+    height: auto;
+    width: 50%;
+  }
+  .information2 {
+    flex-direction: row;
+    margin-top: 650px;
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .clothes-link {
+    flex-direction: row;
+  }
+  .information {
+    flex-direction: row;
+    margin-top: 800px;
+    justify-content: center;
+  }
+  .link {
+    height: auto;
+    width: 50%;
+  }
+  .preview-header2 {
+    font-size: 200px;
+    width: 650px;
+  }
+  .information2 {
+    flex-direction: row;
+    margin-top: 650px;
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    display: none;
+  }
+  .clothes-link {
+    flex-direction: column;
+  }
+  .information {
+    flex-direction: column;
+    margin-top: 1500px;
+    justify-content: center;
+    margin-left: 70px !important;
+  }
+  .link {
+    height: auto;
+    width: 30%;
+  }
+  .follow-header {
+    display: none;
+  }
+  .media-links {
+    margin-top: 100px;
+  }
+  .copyright {
+    font-size: 40px !important;
+  }
+  .information2 {
+    flex-direction: column;
+    margin-top: 2700px;
+    margin-right: 150px !important;
+    justify-content: center;
+  }
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.home-image {
+  width: 1518px;
+}
+
+.image-link {
+  position: relative;
+}
+
+.link {
+  width: 400px;
+  height: 590px;
+  margin-bottom: 90px;
+}
+
+.model-link {
+  width: 400px;
+  height: 590px;
+}
+
+.top-image:hover {
+  width: auto;
+  height: auto;
+  content: url("images/shirt-ulti.JPG");
+}
+
+.bottom-image:hover {
+  width: auto;
+  height: auto;
+  content: url("images/pants-ulti.JPG");
+}
+
+.hoodie-image:hover {
+  width: auto;
+  height: auto;
+  content: url("images/hoodie-ulti.JPG");
+}
+
+
+
+
+.footer {
+  height: 400px;
+  background-color: white;
+}
+
+.footer-link {
+  font-size: 50px;
+  color: black;
+}
+
+.footer-link:hover {
+  color: #bbbbbb;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 70px;
+  width: auto;
+}
+
+.information2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 70px;
+  width: auto;
+}
+
+.social-media {
+  height: 250px;
+  margin: 0px 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.follow-header {
+  padding-top: 30px;
+  padding-right: 10px;
+  height: 50px;
+  width: 140px;
+  text-align: center;
+  position: relative;
+}
+
+.media-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 500px;
+  height: 50px;
+  padding-right: 40px;
+}
+
+.facebook-link {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-image: url("Design/facebook-light.svg");
+  background-size: 50px 50px;
+}
+
+.facebook-link:hover {
+  background-image: url("Design/facebook-dark.svg");
+  background-size: 50px 50px;
+}
+
+.instagram-link {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-image: url("Design/instagram-light.svg");
+  background-size: 50px 50px;
+}
+
+.instagram-link:hover {
+  background-image: url("Design/instagram-dark.svg");
+  background-size: 50px 50px;
+}
+
+.twitter-link {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-image: url("Design/twitter-light.svg");
+  background-size: 50px 50px;
+}
+
+.twitter-link:hover {
+  background-image: url("Design/twitter-dark.svg");
+  background-size: 50px 50px;
+}
+
+.copyright-section {
+  display: flex;
+  justify-content: center;
+}
+
+#item1:hover {
+  width: auto;
+  height: auto;
+  content: url("images/IU2.jpg");
+}
+
+#item2:hover {
+  width: auto;
+  height: auto;
+  content: url("images/joji.jpg");
+}
+
+#item3:hover {
+  width: auto;
+  height: auto;
+  content: url("images/justin-bieber.jpg");
+}
+
+#item4:hover {
+  width: auto;
+  height: auto;
+  content: url("images/jaden.jpg");
+}
+
+#item5:hover {
+  width: auto;
+  height: auto;
+  content: url("images/tom-holland.jpg");
+}
+
+#item6:hover {
+  width: auto;
+  height: auto;
+  content: url("images/jennie.jpg");
+}
