@@ -1,5 +1,5 @@
 # Ulti-Dry-demo
-Demo website for web fundamentals assignment
+Demo website for Web Fundamentals assignment
 
 View Website: https://alexk0309.github.io/Ulti-Dry-demo/
 
